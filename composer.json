@@ -1,5 +1,5 @@
 {
-    "name": "renoki-co/laravel-web3",
+    "name": "jackwong7/laravel-web3",
     "description": "Laravel SDK wrapper for the Web3 PHP API client that interacts with the Ethereum blockchain.",
     "keywords": ["laravel", "php", "api", "sdk", "wrapper", "web3", "eth", "ethereum", "blockchain", "token", "contracts"],
     "license": "Apache-2.0",
@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=7.1",
-        "sc0vu/web3.php": "dev-master"
+        "jackwong7/web3.php": "dev-master"
     },
     "autoload": {
         "psr-4": {
