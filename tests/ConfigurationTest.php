@@ -1,9 +1,9 @@
 <?php
 
-namespace RenokiCo\LaravelWeb3\Test;
+namespace Vance\LaravelWeb3\Test;
 
-use RenokiCo\LaravelWeb3\Web3 as LaravelWeb3;
-use RenokiCo\LaravelWeb3\Web3Facade;
+use Vance\LaravelWeb3\Web3 as LaravelWeb3;
+use Vance\LaravelWeb3\Web3Facade;
 use Web3\Contract;
 use Web3\Eth;
 use Web3\Net;

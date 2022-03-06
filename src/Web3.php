@@ -1,6 +1,6 @@
 <?php
 
-namespace RenokiCo\LaravelWeb3;
+namespace Vance\LaravelWeb3;
 
 use Web3\Contract as Web3Contract;
 use Web3\Web3 as Web3Client;

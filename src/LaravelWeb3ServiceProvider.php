@@ -1,6 +1,6 @@
 <?php
 
-namespace RenokiCo\LaravelWeb3;
+namespace Vance\LaravelWeb3;
 
 use Illuminate\Support\ServiceProvider;
 

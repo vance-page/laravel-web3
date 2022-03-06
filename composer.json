@@ -1,28 +1,28 @@
 {
-    "name": "steven-ok/laravel-web3",
+    "name": "vance-page/laravel-web3",
     "description": "Laravel SDK wrapper for the Web3 PHP API client that interacts with the Ethereum blockchain.",
     "keywords": ["laravel", "php", "api", "sdk", "wrapper", "web3", "eth", "ethereum", "blockchain", "token", "contracts"],
     "license": "Apache-2.0",
-    "homepage": "https://github.com/renoki-co/laravel-web3",
+    "homepage": "https://github.com/vance-page/laravel-web3",
     "authors": [
         {
-            "name": "Alex Renoki",
-            "homepage": "https://github.com/rennokki",
+            "name": "vance",
+            "homepage": "https://github.com/vance-page",
             "role": "Developer"
         }
     ],
     "require": {
         "php": ">=7.1",
-        "steven-ok/web3.php": "dev-master"
+        "vance-page/web3.php": "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "RenokiCo\\LaravelWeb3\\": "src/"
+            "Vance\\LaravelWeb3\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "RenokiCo\\LaravelWeb3\\Test\\": "tests"
+            "Vance\\LaravelWeb3\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -39,7 +39,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "RenokiCo\\LaravelWeb3\\LaravelWeb3ServiceProvider"
+                "Vance\\LaravelWeb3\\LaravelWeb3ServiceProvider"
             ]
         }
     }

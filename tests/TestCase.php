@@ -1,6 +1,6 @@
 <?php
 
-namespace RenokiCo\LaravelWeb3\Test;
+namespace Vance\LaravelWeb3\Test;
 
 use Orchestra\Testbench\TestCase as Orchestra;
 
@@ -12,7 +12,7 @@ abstract class TestCase extends Orchestra
     protected function getPackageProviders($app)
     {
         return [
-            \RenokiCo\LaravelWeb3\LaravelWeb3ServiceProvider::class,
+            \Vance\LaravelWeb3\LaravelWeb3ServiceProvider::class,
         ];
     }
 
